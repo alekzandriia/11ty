@@ -8,7 +8,9 @@
   </head> 
   <body>
     {% include 'header.njk' %}
-    {{ content | safe }} <!--If you don't include safe, it will render content as a string not html-->
+    <main>
+      {{ content | safe }}
+    </main>
     {% include 'footer.njk' %}
   </body>
 </html>
