@@ -2,3 +2,16 @@
 title: Archive
 layout: 'base.njk'
 ---
+
+<section>
+  <h2>Recent Articles</h2>
+  <ul>
+    {%- for post in collections.post -%}
+    <li>
+      <article>
+        <h3>{{ post.data.title }}</h3>
+      </article>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
