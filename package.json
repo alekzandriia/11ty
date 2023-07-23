@@ -1,0 +1,21 @@
+{
+  "name": "11ty",
+  "version": "1.0.0",
+  "description": "an 11ty starter template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "11ty",
+    "blog",
+    "starter",
+    "template",
+    "ssg"
+  ],
+  "author": "Alex O'Reilly (alekzandriia)",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
