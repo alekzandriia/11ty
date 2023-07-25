@@ -6,12 +6,12 @@ This is a a very simple unstyled blog starter that uses the 11ty framework for s
 
 - [11ty](https://www.11ty.dev/) (Static site generator)
 - [Nunjucks](https://mozilla.github.io/nunjucks/) (Templating language)
-- [YAML](https://yaml.org/) (front matter language for metadata)
+- [YAML](https://yaml.org/) (Front matter language for metadata)
 - [Luxon](https://moment.github.io/luxon/#/) (Date formatter)
 
 # Installation
 
-**0️0. Make sure that you have [Node](https://nodejs.org/en) installed**
+**00. Make sure that you have [Node](https://nodejs.org/en) installed**
 
 ```
 node -v
@@ -76,7 +76,7 @@ Page layouts are generated using the templates stored in the `_includes` directo
 
 Articles are written in markdown.
 
-1. Create a new file in the `/src/archive` directory, using the `.md` file extension (example: `new-post.njk` ).
+1. Create a new file in the `/src/archive` directory, using the `.md` file extension (example: `new-post.md` ).
 2. Add your article's metadata at the top of the page.
 
 ```
