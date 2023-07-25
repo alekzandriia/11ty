@@ -1,5 +1,9 @@
 # dependencies installed by npm
+**/node_modules
 node_modules
+dist
+dist-ssr
+*.local
 
 # build artefacts
 public
@@ -9,5 +13,12 @@ css
 .env
 .log
 
-# macOS related files
+# Editor related files
+.vscode/*
+!.vscode/extensions.json
 .DS_Store
+
+# logs
+logs
+*.log
+npm-debug.log*
