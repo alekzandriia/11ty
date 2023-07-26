@@ -119,3 +119,5 @@ Alex O'Reilly
 # Helpful Resources
 
 [11ty.rocks](https://11ty.rocks/) - Awesome resource for all things 11ty!
+
+[11ty Plugins](https://plug11ty.com/) - Collection of 11ty plugins
