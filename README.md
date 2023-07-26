@@ -8,6 +8,7 @@ This is a a very simple unstyled blog starter that uses the 11ty framework for s
 - [Nunjucks](https://mozilla.github.io/nunjucks/) (Templating language)
 - [YAML](https://yaml.org/) (Front matter language for metadata)
 - [Luxon](https://moment.github.io/luxon/#/) (Date formatter)
+- [Tool Cool](https://toolcool.org/random-favicon-generator) - Favicon generator
 
 # Installation
 
