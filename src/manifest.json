@@ -6,5 +6,23 @@
   "description": "A starter template for creating websites using Eleventy.",
   "background-color": "#1a1a1a",
   "theme-color": "#1a1a1a",
-  "display": "standalone"
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    },
+    {
+      "src": "src/assets/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "196x196",
+      "purpose": "any maskable"
+    }
+  ]
 }
