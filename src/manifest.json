@@ -1,0 +1,10 @@
+{
+  "name": "11ty Kit",
+  "short_name": "11ty Kit",
+  "start_url": "/",
+  "scope": "/",
+  "description": "A starter template for creating websites using Eleventy.",
+  "background-color": "#1a1a1a",
+  "theme-color": "#1a1a1a",
+  "display": "standalone"
+}
