@@ -8,6 +8,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets')
   eleventyConfig.addPassthroughCopy('./src/manifest.json')
   eleventyConfig.addPassthroughCopy('./src/robots.txt')
+  eleventyConfig.addPassthroughCopy('./src/index.js')
+  eleventyConfig.addPassthroughCopy('./src/sw.js')
 
   // Specify Date Format
   eleventyConfig.addFilter("postDate", (dateObj) => {
