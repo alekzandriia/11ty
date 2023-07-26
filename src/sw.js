@@ -12,8 +12,12 @@ self.addEventListener("install", (e) => {
 self.addEventListener("fetch", (e) => {
   self.skipWaiting();
   e.respondWith(
-    caches.match(e.request).then(response => { //check cache for resources
-      return response || fetch(e.request) // return cached resource or else perform normal network  request (cache-first)
+    fetch(request).then(function (response) {
+      return response;
+    }).catch(function (error) {
+      return caches.match(request).then(function (response) {
+        return response;
+      });
     })
-    );
+  );
 });

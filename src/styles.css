@@ -1,1 +1,4 @@
 /* Style your pages however you want */
+* {
+  font-family: system-ui;
+}
