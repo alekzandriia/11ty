@@ -4,8 +4,8 @@
   "start_url": "/",
   "scope": "/",
   "description": "A starter template for creating websites using Eleventy.",
-  "background-color": "#1a1a1a",
-  "theme-color": "#1a1a1a",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
   "display": "standalone",
   "icons": [
     {
