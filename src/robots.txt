@@ -1,0 +1,5 @@
+# The robots.txt file is used to give instructions to bots and web crawlers about what content you want indexed. This configuration does not forbid any robots and allows all robots to crawl the site without restrictions. 
+
+User-agent: *
+Disallow:
+
