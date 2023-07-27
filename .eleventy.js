@@ -5,6 +5,7 @@ const { DateTime } = require("luxon")
 module.exports = function(eleventyConfig) {
 // Pass through additional items that are not passed by default
   eleventyConfig.addPassthroughCopy('./src/styles.css')
+  eleventyConfig.addWatchTarget('./src/styles.css')
   eleventyConfig.addPassthroughCopy('./src/assets')
   eleventyConfig.addPassthroughCopy('./src/manifest.json')
   eleventyConfig.addPassthroughCopy('./src/robots.txt')
